@@ -15,7 +15,7 @@ public interface CouponTemplateDao
         extends JpaRepository<CouponTemplate, Integer> {
 
     /**
-     * @Description: 根据模板名称查询模板
+     * @Description: 根据模板名称查询模板  where name = ...
      * @return: org.vvs.coupon.entity.CouponTemplate
      */
     CouponTemplate findByName(String name);
