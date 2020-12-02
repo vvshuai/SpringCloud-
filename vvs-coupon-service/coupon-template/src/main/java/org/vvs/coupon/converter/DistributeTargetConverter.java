@@ -1,6 +1,6 @@
 package org.vvs.coupon.converter;
 
-import com.vvs.coupon.constant.DistributeTarget;
+import org.vvs.coupon.constant.DistributeTarget;
 
 import javax.persistence.AttributeConverter;
 import javax.persistence.Converter;

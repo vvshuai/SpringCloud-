@@ -1,7 +1,7 @@
 package org.vvs.coupon.service.impl;
 
 import com.google.common.base.Stopwatch;
-import com.vvs.coupon.constant.Constant;
+import org.vvs.coupon.constant.Constant;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.RandomStringUtils;
 import org.springframework.beans.factory.annotation.Autowired;

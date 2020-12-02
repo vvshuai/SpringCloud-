@@ -1,6 +1,6 @@
 package org.vvs.coupon.service.impl;
 
-import com.vvs.coupon.exception.CouponException;
+import org.vvs.coupon.exception.CouponException;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

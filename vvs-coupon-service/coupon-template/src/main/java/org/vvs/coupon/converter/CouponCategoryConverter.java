@@ -1,6 +1,6 @@
 package org.vvs.coupon.converter;
 
-import com.vvs.coupon.constant.CouponCategory;
+import org.vvs.coupon.constant.CouponCategory;
 
 import javax.persistence.AttributeConverter;
 import javax.persistence.Converter;

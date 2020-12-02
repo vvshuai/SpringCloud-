@@ -24,7 +24,7 @@ public interface CouponTemplateDao
      * @Description: 根据 available 和 expired 标记查找模板记录
      * @return: java.util.List<org.vvs.coupon.entity.CouponTemplate>
      */
-    List<CouponTemplate> findAllByAvAndAvailableAndExpired(
+    List<CouponTemplate> findAllByAvailableAndExpired(
         Boolean available, Boolean expired
     );
 

@@ -1,11 +1,10 @@
 package org.vvs.coupon.service;
 
-import com.vvs.coupon.exception.CouponException;
-import com.vvs.coupon.vo.CouponTemplateSDK;
+import org.vvs.coupon.exception.CouponException;
+import org.vvs.coupon.vo.CouponTemplateSDK;
 import org.vvs.coupon.entity.CouponTemplate;
 
 import java.util.Collection;
-import java.util.Collections;
 import java.util.List;
 import java.util.Map;
 

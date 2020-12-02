@@ -1,10 +1,10 @@
 package org.vvs.coupon.entity;
 
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
-import com.vvs.coupon.constant.CouponCategory;
-import com.vvs.coupon.constant.DistributeTarget;
-import com.vvs.coupon.constant.ProductLine;
-import com.vvs.coupon.vo.TemplateRule;
+import org.vvs.coupon.constant.CouponCategory;
+import org.vvs.coupon.constant.DistributeTarget;
+import org.vvs.coupon.constant.ProductLine;
+import org.vvs.coupon.vo.TemplateRule;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -106,6 +106,8 @@ public class CouponTemplate implements Serializable {
     public CouponTemplate(String name, String logo, String desc, String category,
                           Integer productLine, Integer count, Long userId,
                           Integer target, TemplateRule rule){
+        this.available = false;
+        this.expired = false;
         this.name = name;
         this.logo = logo;
         this.desc = desc;

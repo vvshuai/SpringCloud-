@@ -1,6 +1,6 @@
 package org.vvs.coupon.service;
 
-import com.vvs.coupon.exception.CouponException;
+import org.vvs.coupon.exception.CouponException;
 import org.vvs.coupon.entity.CouponTemplate;
 import org.vvs.coupon.vo.TemplateRequest;
 

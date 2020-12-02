@@ -1,6 +1,6 @@
 package org.vvs.coupon.schedule;
 
-import com.vvs.coupon.vo.TemplateRule;
+import org.vvs.coupon.vo.TemplateRule;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.collections4.CollectionUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -10,7 +10,6 @@ import org.vvs.coupon.dao.CouponTemplateDao;
 import org.vvs.coupon.entity.CouponTemplate;
 
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.Date;
 import java.util.List;
 

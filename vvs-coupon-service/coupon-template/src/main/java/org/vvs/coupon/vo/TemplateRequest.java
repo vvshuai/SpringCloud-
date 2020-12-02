@@ -1,14 +1,12 @@
 package org.vvs.coupon.vo;
 
-import com.vvs.coupon.constant.CouponCategory;
-import com.vvs.coupon.constant.DistributeTarget;
-import com.vvs.coupon.constant.ProductLine;
-import com.vvs.coupon.vo.TemplateRule;
+import org.vvs.coupon.constant.CouponCategory;
+import org.vvs.coupon.constant.DistributeTarget;
+import org.vvs.coupon.constant.ProductLine;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.apache.commons.lang.StringUtils;
-import org.vvs.coupon.serialization.CouponTemplateSerialize;
 
 /**
  * @Author: vvshuai

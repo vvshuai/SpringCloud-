@@ -1,7 +1,7 @@
 package org.vvs.coupon.service.impl;
 
-import com.vvs.coupon.exception.CouponException;
-import com.vvs.coupon.vo.CouponTemplateSDK;
+import org.vvs.coupon.exception.CouponException;
+import org.vvs.coupon.vo.CouponTemplateSDK;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -49,7 +49,7 @@ public class TemplateBaseServiceImpl implements ITemplateBaseService {
     public List<CouponTemplateSDK> findAllUsalbeTemplate() {
 
         List<CouponTemplate> templates =
-                templateDao.findAllByAvAndAvailableAndExpired(
+                templateDao.findAllByAvailableAndExpired(
                         true, false);
 
         return templates.stream()

@@ -1,10 +1,9 @@
 package org.vvs.coupon.converter;
 
 import com.alibaba.fastjson.JSON;
-import com.vvs.coupon.vo.TemplateRule;
+import org.vvs.coupon.vo.TemplateRule;
 
 import javax.persistence.AttributeConverter;
-import javax.persistence.Convert;
 import javax.persistence.Converter;
 
 /**

@@ -1,6 +1,6 @@
 package org.vvs.coupon.converter;
 
-import com.vvs.coupon.constant.ProductLine;
+import org.vvs.coupon.constant.ProductLine;
 
 import javax.persistence.AttributeConverter;
 import javax.persistence.Converter;
