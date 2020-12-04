@@ -9,7 +9,7 @@ package org.vvs.coupon.constant;
 public class Constant {
 
     /** kafka 消息的 topic */
-    public static final String TOPIC = "vvs_user_coupon_op_";
+    public static final String TOPIC = "vvs_user_coupon_op";
 
     /**
      * @Description: redis key 前缀定义

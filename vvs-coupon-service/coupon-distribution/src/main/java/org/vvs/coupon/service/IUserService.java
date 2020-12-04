@@ -4,6 +4,7 @@ import org.vvs.coupon.entity.Coupon;
 import org.vvs.coupon.exception.CouponException;
 import org.vvs.coupon.vo.AcquireTemplateRequest;
 import org.vvs.coupon.vo.CouponTemplateSDK;
+import org.vvs.coupon.vo.SettlementInfo;
 
 import java.util.List;
 
@@ -32,4 +33,10 @@ public interface IUserService {
      * @return: org.vvs.coupon.entity.Coupon
      */
     Coupon acquireTemplate(AcquireTemplateRequest request) throws CouponException;
+
+    /**
+     * @Description: 结算优惠券
+     * @return: org.vvs.coupon.vo.SettlementInfo
+     */
+    SettlementInfo settlement(SettlementInfo info) throws CouponException;
 }
