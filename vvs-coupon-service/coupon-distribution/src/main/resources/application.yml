@@ -38,7 +38,7 @@ spring:
     timeout: 10000
   kafka:
     bootstrap-servers:
-      - 127.0.0.1:9092
+      - 192.168.56.101:9092
       # - 作为数组使用
     consumer:
       group-id: vvs-coupon-x
@@ -52,7 +52,7 @@ spring:
 eureka:
   client:
     service-url:
-      defaultZone: http://server1:8000/eureka/
+      defaultZone: http://localhost:8000/eureka/
 
 logging:
   level:
