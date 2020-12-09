@@ -11,6 +11,7 @@ import java.util.List;
  * @Date: Created in 22:54 2020/11/17
  * @Modified By:
  */
+
 public interface CouponTemplateDao
         extends JpaRepository<CouponTemplate, Integer> {
 
